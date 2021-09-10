@@ -2,9 +2,10 @@
 #escritas en diferente combinación de mayúsculas/minúsculas.
 
 frase = input("ingrese una frase: ")
+frase_lower = frase.lower()
 palabra = input("ingrese una palabra a buscar dentro de la frase:")
-
-busqueda = frase.find(palabra)
+palabra_lower = palabra.lower()
+busqueda = frase_lower.find(palabra_lower)
 
 if busqueda == -1:
     print("la palabra no se encuentra en la frase")
