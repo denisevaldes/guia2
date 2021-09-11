@@ -11,7 +11,7 @@ if largo_1 > largo_2:
     print("la primera palabra es mayor")
     resta = largo_1 - largo_2 
     print("la diferencia es de: ", resta)
-if largo_2 > largo_1:
+elif largo_2 > largo_1:
     print("la segunda palabra es mayor")
     resta = largo_2 - largo_1
     print("la diferencia es de: ", resta)
